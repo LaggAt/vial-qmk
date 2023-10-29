@@ -9,3 +9,6 @@ VIAL_INSECURE = yes
 # shrink firmware
 LTO_ENABLE = yes
 QMK_SETTINGS = no
+
+# for the rotary encoder, support a key map
+ENCODER_MAP_ENABLE = yes

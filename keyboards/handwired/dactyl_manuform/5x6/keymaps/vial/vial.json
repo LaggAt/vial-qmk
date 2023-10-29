@@ -1,11 +1,16 @@
 {
-  "name": "Dactyl Manuform (5x6-5)",
+  "name": "Dactyl Manuform (5x6-6)",
   "vendorId": "0x444D",
   "productId": "0x3536",
   "lighting": "none",
   "matrix": {"rows": 12, "cols": 6},
   "layouts": {
     "keymap": [
+        {
+          "name": "Dactyl Manuform (5x6_6+)",
+          "author": "Florian Lagg",
+          "notes": "This is for my Dactyl Manuform with 6-key thumb cluster.\nI added a rotary encoder to the left half to control volume/mute.\nI also added a Joystick to the right half to control the mouse."
+        },
         [
           {
             "x": 3
@@ -272,6 +277,21 @@
         ],
         [
           {
+            "y": 0.5,
+            "x": -1
+          },
+          "0,0\n\n\n\n\n\n\n\n\ne",
+          "0,1\n\n\n\n\n\n\n\n\ne"
+        ],
+        [
+          {
+            "x": -1,
+            "w": 2
+          },
+          "5,0"
+        ],
+        [
+          {
             "r": -30,
             "rx": 11,
             "x": -3,
@@ -303,5 +323,5 @@
           "11,1"
         ]
       ]
-  }
+    }
 }
