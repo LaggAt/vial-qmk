@@ -1,4 +1,5 @@
 #include QMK_KEYBOARD_H
+#include "sendstring_german.h"
 
 #define _QWERTY 0
 #define _LOWER 1
@@ -18,10 +19,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, KC_A  , KC_S  , KC_D  , KC_F  , KC_G  ,                         KC_H  , KC_J  , KC_K  , KC_L  ,KC_SCLN,KC_QUOT,
         KC_LCTL, KC_Z  , KC_X  , KC_C  , KC_V  , KC_B  ,                         KC_N  , KC_M  ,KC_COMM,KC_DOT ,KC_SLSH,KC_BSLS,
                          KC_LBRC,KC_RBRC,                                                       KC_PLUS, KC_EQL,
-                                         RAISE,KC_SPC,                        KC_ENT, LOWER,
+                                         RAISE,KC_SPC,                           KC_ENT, LOWER,
                                          KC_TAB,KC_HOME,                         KC_END,  KC_DEL,
                                          KC_BSPC, KC_GRV,                        KC_LGUI, KC_LALT,
-        _______
+        KC_AUDIO_MUTE
     ),
 
     [_LOWER] = LAYOUT_5x6(
@@ -50,9 +51,26 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     )
 };
 
+#if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
     [_QWERTY]  = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-    [_LOWER]   = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
+    [_LOWER]   = { ENCODER_CCW_CW(KC_MEDIA_PREV_TRACK, KC_MEDIA_NEXT_TRACK) },
     [_RAISE]   = { ENCODER_CCW_CW(KC_MS_WH_UP, KC_MS_WH_DOWN) },
 };
+#endif
 
+// custom key codes
+enum custom_keycode {
+    USER00_VIAL_WEB = QK_KB_0,
+};
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch(keycode) {
+        case USER00_VIAL_WEB:
+            if (record->event.pressed) {
+                SEND_STRING(SS_LGUI("r") SS_DELAY(200) "https://vial.rocks/\n");
+            }
+            return false;
+    }
+    return true;
+};
