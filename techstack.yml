@@ -1,0 +1,375 @@
+repo_name: LaggAt/vial-qmk
+report_id: bcc8fcba072bbcbecf4518a7b7753d98
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-17T14:09:17+00:00'
+requested_by: mattdonnelly
+provider: github
+branch: vial
+detected_tools_count: 29
+tools:
+- name: Assembly Language
+  description: A low-level programming language
+  website_url: https://en.wikipedia.org/wiki/Assembly_language
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4934/default_71f18bbdc61fb88cefb66415bb55dc6f1e60e5ec.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk
+  detection_source: Repo Metadata
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk
+  detection_source: Repo Metadata
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/LaggAt/vial-qmk
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: honorless
+  last_updated_on: 2023-03-20 03:24:06.000000000 Z
+- name: Nix
+  description: A package manager for Linux and other Unix systems
+  website_url: http://nixos.org/nix
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/pyproject.toml
+  detection_source: util/nix/pyproject.toml
+  last_updated_by: Steve Purcell
+  last_updated_on: 2021-04-03 15:05:46.000000000 Z
+- name: flake8
+  description: Tool for style guide enforcement
+  website_url: https://github.com/PyCQA/flake8
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/requirements-dev.txt
+  detection_source: requirements-dev.txt
+  last_updated_by: Zach White
+  last_updated_on: 2021-11-22 19:11:35.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/keyboards/ergodox_ez/keymaps/hacker_dvorak/package.json
+  detection_source: keyboards/ergodox_ez/keymaps/hacker_dvorak/package.json
+  last_updated_by: Ismael Venegas Castelló
+  last_updated_on: 2019-06-19 05:43:07.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/keyboards/ergodox_ez/keymaps/hacker_dvorak/package.json
+  detection_source: keyboards/ergodox_ez/keymaps/hacker_dvorak/package.json
+  last_updated_by: Ismael Venegas Castelló
+  last_updated_on: 2018-12-05 16:12:35.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk
+  detection_source: Repo Metadata
+- name: Pygments
+  description: Pygments is a syntax highlighting package written in Python
+  package_url: https://pypi.org/project/Pygments
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19858/default_4d761b2257a1435539d6dc92346974d9f1d55c70.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/pyproject.toml
+  detection_source: util/nix/pyproject.toml
+  last_updated_by: Sergey Vlasov
+  last_updated_on: 2021-08-29 21:24:43.000000000 Z
+- name: appdirs
+  description: A small Python module for determining appropriate platform-specific
+    dirs, e.g
+  package_url: https://pypi.org/project/appdirs
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19878/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements.txt
+  last_updated_by: skullydazed
+  last_updated_on: 2019-09-22 20:25:33.000000000 Z
+- name: argcomplete
+  description: Bash tab completion for argparse
+  package_url: https://pypi.org/project/argcomplete
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19928/default_bb29140b72c0fb9789e567bba0ef0ffadeaef5d4.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements.txt
+  last_updated_by: skullydazed
+  last_updated_on: 2019-07-15 19:14:27.000000000 Z
+- name: colorama
+  description: Cross-platform colored terminal text
+  package_url: https://pypi.org/project/colorama
+  version: 0.4.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19845/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements.txt
+  last_updated_by: skullydazed
+  last_updated_on: 2019-07-15 19:14:27.000000000 Z
+- name: hid
+  description: Ctypes bindings for hidapi
+  package_url: https://pypi.org/project/hid
+  version: 1.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements.txt
+  last_updated_by: skullydazed
+  last_updated_on: 2019-07-15 19:14:27.000000000 Z
+- name: jsonschema
+  description: An implementation of JSON Schema validation for Python
+  package_url: https://pypi.org/project/jsonschema
+  version: 4.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19854/default_3fbfa1d88b4408e903227ac391490e8efb8dea58.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements.txt
+  last_updated_by: Erovia
+  last_updated_on: 2022-04-06 18:46:16.000000000 Z
+- name: nose2
+  description: Unittest2 with plugins, the succesor to nose
+  package_url: https://pypi.org/project/nose2
+  version: 0.12.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements-dev.txt
+  last_updated_by: Erovia
+  last_updated_on: 2019-11-27 20:27:06.000000000 Z
+- name: pep8-naming
+  description: Check PEP-8 naming conventions, plugin for flake8
+  package_url: https://pypi.org/project/pep8-naming
+  version: 0.13.2
+  license: Saxpath
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20732/default_a1230263c1022e7a5f1ab77d48a7703cf2c2878e.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements-dev.txt
+  last_updated_by: Erovia
+  last_updated_on: 2019-11-27 20:27:06.000000000 Z
+- name: pycparser
+  description: C parser in Python
+  package_url: https://pypi.org/project/pycparser
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20072/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/keyboards/ergodox_ez/util/keymap_beautifier/requirements.txt
+  detection_source: keyboards/ergodox_ez/util/keymap_beautifier/requirements.txt
+  last_updated_by: Tsan-Kuang Lee
+  last_updated_on: 2019-11-05 07:14:15.000000000 Z
+- name: pyflakes
+  description: Passive checker of Python programs
+  package_url: https://pypi.org/project/pyflakes
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20155/default_00b4278983e5385b6d5b93c4ffc4ef51d53270e9.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements-dev.txt
+  last_updated_by: Zach White
+  last_updated_on: 2021-11-22 19:11:35.000000000 Z
+- name: pyserial
+  description: Python Serial Port Extension
+  package_url: https://pypi.org/project/pyserial
+  version: '3.5'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19872/default_60b55c6e7ce7a6f609d0d19bae5378c2c75789d0.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements.txt
+  last_updated_by: Erovia
+  last_updated_on: 2022-08-20 05:39:19.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: util/nix/pyproject.toml
+  last_updated_by: Sergey Vlasov
+  last_updated_on: 2022-08-23 01:59:33.000000000 Z
+- name: pyusb
+  description: Python USB access module
+  package_url: https://pypi.org/project/pyusb
+  version: 1.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20291/default_640b00772a7025571fa2ac02de971e76f9662aa9.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements.txt
+  last_updated_by: Zach White
+  last_updated_on: 2021-06-07 23:30:55.000000000 Z
+- name: yapf
+  description: A formatter for Python code
+  package_url: https://pypi.org/project/yapf
+  version: 0.32.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20399/default_27c957eac1674813a0a457a78f430be9e3c184a7.png
+  detection_source_url: https://github.com/LaggAt/vial-qmk/blob/vial/util/nix/poetry.lock
+  detection_source: requirements-dev.txt
+  last_updated_by: Erovia
+  last_updated_on: 2020-02-20 00:10:56.000000000 Z
