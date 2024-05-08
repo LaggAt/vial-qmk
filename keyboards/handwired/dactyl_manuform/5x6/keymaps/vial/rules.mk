@@ -4,7 +4,7 @@ VIAL_ENABLE = yes
 
 # shrink firmware
 LTO_ENABLE = yes
-QMK_SETTINGS = no
+QMK_SETTINGS = yes
 #KEY_OVERRIDE_ENABLE = no
 
 # for the rotary encoder, support a key map
