@@ -2,9 +2,15 @@
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
 
+#connect both sides
+#SERIAL_DRIVER = usart
+SERIAL_DRIVER = vendor
+
+#CONVERT_TO = promicro_rp2040
+#CONVERT_TO = rp2040_ce
+
 # shrink firmware
 LTO_ENABLE = yes
-QMK_SETTINGS = yes
 #KEY_OVERRIDE_ENABLE = no
 
 # for the rotary encoder, support a key map

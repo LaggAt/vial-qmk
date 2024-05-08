@@ -1,33 +1,27 @@
 {
     "$schema": "https://raw.githubusercontent.com/qmk/qmk_firmware/master/data/schemas/keyboard.jsonschema",
     "keyboard_name": "Dactyl-Manuform (5x6_6+)",
-    "manufacturer": "tshort",
+    "manufacturer": "laggat",
     "url": "",
     "maintainer": "qmk",
     "usb": {
         "vid": "0x444D",
         "pid": "0x3536",
-        "device_version": "0.0.2"
+        "device_version": "0.0.3"
     },
     "matrix_pins": {
-        "cols": ["D4", "C6", "D7", "E6", "B4", "B5"],
-        "rows": ["F6", "F7", "B1", "B3", "B2", "B6"]
+        "cols": ["GP21", "GP20", "GP19", "GP18", "GP17", "GP16"],
+        "rows": ["GP10", "GP11", "GP12", "GP13", "GP14", "GP15"]
     },
     "diode_direction": "COL2ROW",
-    "split": {
-        "soft_serial_pin": "D0",
-        "encoder": {
-            "right": {}
-        }
-    },
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
     "features": {
         "encoder": true
     },
     "encoder": {
         "rotary": [
-            { "pin_a": "F4", "pin_b": "F5", "resolution": 1 }
+            { "pin_a": "GP8", "pin_b": "GP9", "resolution": 1 }
         ]
     },
     "layouts": {
