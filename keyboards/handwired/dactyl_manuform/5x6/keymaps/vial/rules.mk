@@ -15,3 +15,6 @@ LTO_ENABLE = yes
 
 # for the rotary encoder, support a key map
 ENCODER_MAP_ENABLE = yes
+
+# vial RGB Lightning enable
+VIALRGB_ENABLE = yes

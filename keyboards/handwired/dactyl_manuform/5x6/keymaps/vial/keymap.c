@@ -13,6 +13,20 @@ enum layers {
 #define RAISE MO(_RAISE)
 #define LOWER MO(_LOWER)
 
+// #ifdef VIAL_COMBO_ENABLE
+//     // combos
+//     const uint16_t PROGMEM bootloader_combo[] = {KC_ESC, KC_B, COMBO_END};
+//     const uint16_t PROGMEM debug_combo[] = {KC_ESC, KC_D, COMBO_END};
+
+//     // combo_t key_combos[VIAL_COMBO_ENTRIES] = {
+//     //     COMBO(bootloader_combo, QK_BOOT),
+//     //     COMBO(debug_combo, DB_TOGG),
+//     // };
+//     extern combo_t key_combos[VIAL_COMBO_ENTRIES];
+//     key_combos[0] = COMBO(bootloader_combo, QK_BOOT);
+//     key_combos[1] = COMBO(debug_combo, DB_TOGG);5
+// #endif
+
 // info.json:
 // X:   0      , 1     , 2     , 3     , 4     , 5    ,                         11    , 12    , 13    , 14    , 15    , 16    ,
 // Y: 0 first fow, downwards

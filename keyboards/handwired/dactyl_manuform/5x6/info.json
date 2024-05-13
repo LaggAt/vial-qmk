@@ -19,10 +19,14 @@
     "features": {
         "encoder": true
     },
-    "encoder": {
-        "rotary": [
-            { "pin_a": "GP8", "pin_b": "GP9", "resolution": 1 }
-        ]
+    "split": {
+        "enabled": true,
+        "transport": {
+            "sync": {
+                "layer_state": true,
+                "matrix_state": true
+            }
+        }
     },
     "layouts": {
         "LAYOUT_5x6": {
