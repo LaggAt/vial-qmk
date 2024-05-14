@@ -15,9 +15,10 @@
 // right side: add joystick as pointing device (mouse)
 #define SPLIT_POINTING_ENABLE
 #define POINTING_DEVICE_RIGHT
-#define ANALOG_JOYSTICK_X_AXIS_PIN GP8
-#define ANALOG_JOYSTICK_Y_AXIS_PIN GP9
-#define ANALOG_JOYSTICK_CLICK_PIN GP3
+#define POINTING_DEVICE_INVERT_X
+#define ANALOG_JOYSTICK_X_AXIS_PIN GP26
+#define ANALOG_JOYSTICK_Y_AXIS_PIN GP27
+#define ANALOG_JOYSTICK_CLICK_PIN GP22
 
 // left side: rotary encoder (volume control, what else?)
 #define ENCODERS_PAD_A { GP8 }

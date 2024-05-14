@@ -22,3 +22,7 @@ BOARD = GENERIC_RP_RP2040
 RGB_MATRIX_ENABLE = yes
 RGB_MATRIX_DRIVER = ws2812
 WS2812_DRIVER = vendor
+
+# add joystick as pointing device (mouse)
+POINTING_DEVICE_ENABLE = yes
+POINTING_DEVICE_DRIVER = analog_joystick
